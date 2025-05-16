@@ -1,0 +1,15 @@
+OPENAI_API_KEY = "<YOUR_OPENAI_API_KEY>"
+OLLAMA_API_KEY = "<YOUR_OLLAMA_API_KEY>"
+DISCORD_TOKEN = "<YOUR_DISCORD_TOKEN>"
+GSHEET_KEYFILE_DICT = {}
+GSHEET_NAME = "<YOUR_GSHEET_NAME>"
+USE_OPENAI_API = False
+USE_OLLAMA_API = False
+
+
+
+try:
+	from local_settings import *
+except ImportError:
+	pass
+
