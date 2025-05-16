@@ -8,7 +8,6 @@ wheels/
 local_settings.py
 # Virtual environments
 .venv
-bot-env/
 
 # json
 *.json
